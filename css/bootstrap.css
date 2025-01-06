@@ -1821,6 +1821,11 @@ pre code {
 
 @media (max-width: 991.98px) {
 
+  .whatsapp {
+    top: 40% !important; 
+  }
+
+
   .carousel-control-next, .carousel-control-prev {
     top: 20% !important;
 
