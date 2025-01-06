@@ -311,6 +311,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
+  padding-top: 1000px;
   position: relative;
   width: 100%;
   z-index: 4;
