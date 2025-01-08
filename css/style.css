@@ -101,6 +101,36 @@ h2 {
   height: 50px;
 }
 
+.whatsapp {
+  top: 70% ; 
+}
+.whatsapp::before{
+  background-color: rgb(160, 212, 82) !important ;
+  text-align: center;
+  text-size-adjust: center ;
+  color: white;
+  size: 30px;
+}
+.whatsapp button  { 
+  height: 44px !important;
+}
+
+
+.whatsapp button i {
+  display: block; 
+  color: white !important;
+  margin: 2.5px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+
+.whatsapp  .fa-whatsapp:before {
+  content: "\f232";
+  size: 30px !important;
+  font-size: 40px;
+}
+
 .custom_menu-btn::before {
   content: "";
   position: absolute;
@@ -311,6 +341,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
+  padding-top: 1000px;
   position: relative;
   width: 100%;
   z-index: 4;
