@@ -1059,10 +1059,10 @@ a:focus {
 }
 
 .slider_section .img-box{
-  width: 100% important;
+  width: 100% !important;
 }
 
 .slider_section .img-box img{
-  width: 100% important;
+  width: 100% !important;
 }
 /*# sourceMappingURL=style.css.map */
